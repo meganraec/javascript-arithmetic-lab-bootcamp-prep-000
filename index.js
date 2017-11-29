@@ -18,11 +18,13 @@ function divide(a, b) {
 }
 
 function inc(n) {
+  var a = n;
   return a += 1;
 }
 
 
 function dec(n) {
+  var a = n
   return a -= 1;
 }
 
