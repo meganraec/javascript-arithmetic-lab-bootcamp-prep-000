@@ -17,8 +17,12 @@ function divide(a, b) {
   return a / b;
 }
 
-function increment(a,b) {
-  return 
+function increment(a) {
+  return a += 1;
+}
+
+function decrement(a) {
+  return a -= 1; 
 }
 
 it('inc(n) increments n and returns the result', function() {
