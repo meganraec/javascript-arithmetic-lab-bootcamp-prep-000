@@ -18,12 +18,13 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  return a
+  return a += 1;
 }
 
-function decrement(a) {
-  var n = (a -= 1)
-  return n
+inc(a)
+
+function dec(n) {
+  return a -= 1;
 }
 
 it('inc(n) increments n and returns the result', function() {
