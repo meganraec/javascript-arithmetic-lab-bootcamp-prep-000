@@ -21,7 +21,6 @@ function inc(n) {
   return a += 1;
 }
 
-inc(a)
 
 function dec(n) {
   return a -= 1;
